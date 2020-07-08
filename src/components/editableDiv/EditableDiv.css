@@ -1,0 +1,70 @@
+.editableWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  width: 70%;
+}
+.editableWrapper:last-child {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #596e79;
+  color: white;
+}
+.editable .editableInput {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #596e79;
+  padding-bottom: 8px;
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  background-color: transparent;
+}
+
+.newInput {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid white;
+  padding-bottom: 8px;
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  background-color: transparent;
+  color: white;
+}
+
+.editable .editableInput:focus {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.editable .Editable__text {
+  outline: none;
+  min-width: 80%;
+}
+
+.newRecord {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.editable .editableActions {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.addIconWrapper {
+  margin-left: 15px;
+}
+
+.newRecordIcon {
+  font-size: 16px;
+}

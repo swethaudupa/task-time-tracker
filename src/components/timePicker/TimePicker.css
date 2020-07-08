@@ -1,0 +1,27 @@
+.timeInput {
+  max-width: 30px;
+  text-align: center;
+  /* Chrome, Safari, Edge, Opera */
+}
+
+.timeInput:focus {
+  outline: #596e79;
+}
+
+.timeInput::-webkit-outer-spin-button,
+.timeInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.timeInput[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.timeInputWrapper {
+  min-width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

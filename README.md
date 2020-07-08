@@ -1,4 +1,24 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Time tracker for tasks
+
+## About the project
+
+It's a time tracker app which is built using ReactJS and create-react-app for the starter kit. It uses react-apollo to query graphQL.<br />
+The aim of this app is to be able to
+-  Create categories for each task
+-  Create n number of tasks for each of these categories
+-  Add new, edit and delete of these tasks/categories are supported
+-  Start a timer for each of the task to track them individually
+-  Stop the timer
+-  If the task is completed, it shows the status as completed
+
+It uses accordion component to expand and collapse taks. A library called react-compound-timer has been used to record and stop the timer.<br /> 
+Steps on how to use the app:
+- To add a new task/tag, click on the "+" icon, which opens an input element to enter. Click on "check" icon to save and "x" to close
+- To edit a task/tag, click on the "pencil" icon, which opens an input element to enter. Click on "check" icon to save and "x" to close
+- To delete a task/tag, click on "trash" icon to delete
+- Click on "play" icon to start the timer on any task,  and "stop" to end the timer
+
+**Note: Accordions are only expandable by clicking on the chevron icon to maintain simplicity as there are may buttons/functionalities included. Only the icons are clickabled in the app.** 
 
 ## Available Scripts
 

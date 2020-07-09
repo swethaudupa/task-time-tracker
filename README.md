@@ -2,7 +2,7 @@
 
 ## About the project
 
-It's a time tracker app which is built using ReactJS and create-react-app for the starter kit. It uses react-apollo to query graphQL.<br />
+It's a time tracker app which is built using ReactJS and create-react-app for the starter kit. It uses react-apollo to query graphQL.<br /><br />
 The aim of this app is to be able to
 -  Create categories for each task
 -  Create n number of tasks for each of these categories
@@ -11,7 +11,7 @@ The aim of this app is to be able to
 -  Stop the timer
 -  If the task is completed, it shows the status as completed
 
-It uses accordion component to expand and collapse taks. A library called react-compound-timer has been used to record and stop the timer.<br /> 
+It uses accordion component to expand and collapse taks. A library called react-compound-timer has been used to record and stop the timer.<br /><br />
 Steps on how to use the app:
 - To add a new task/tag, click on the "+" icon, which opens an input element to enter. Click on "check" icon to save and "x" to close
 - To edit a task/tag, click on the "pencil" icon, which opens an input element to enter. Click on "check" icon to save and "x" to close

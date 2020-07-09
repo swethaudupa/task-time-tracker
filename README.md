@@ -6,7 +6,7 @@ It's a time tracker app which is built using ReactJS and create-react-app for th
 The aim of this app is to be able to
 -  Create categories for each task
 -  Create n number of tasks for each of these categories
--  Add new, edit and delete of these tasks/categories are supported
+-  Adding new, editing and deleting of these tasks/categories are supported
 -  Start a timer for each of the task to track them individually
 -  Stop the timer
 -  If the task is completed, it shows the status as completed
